@@ -12,7 +12,6 @@ yarn-error.log*
 .env.production.local
 
 # AWS credentials
-config.js
 .aws/
 
 # Logs
