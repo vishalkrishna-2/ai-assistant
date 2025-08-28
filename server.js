@@ -19,7 +19,7 @@ const bedrockClient = new BedrockRuntimeClient({
 // API endpoint for Bedrock integration
 app.post('/api/bedrock', async (req, res) => {
     try {
-        const { message, model = 'anthropic.claude-3-sonnet-20240229-v1:0' } = req.body;
+        const { message, model = 'anthropic.claude-3-haiku-20240307-v1:0' } = req.body;
         
         if (!message) {
             return res.status(400).json({ error: 'Message is required' });

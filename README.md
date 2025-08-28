@@ -4,7 +4,7 @@ A modern AI chat application with AWS Bedrock integration, file upload capabilit
 
 ## Features
 
-- 🤖 **AWS Bedrock Integration** - Powered by Claude 3 Sonnet
+- 🤖 **AWS Bedrock Integration** - Powered by Claude 3 Haiku
 - 💬 **Multi-chat Support** - Separate conversation threads
 - 📁 **File Upload** - Upload and preview files
 - 🎨 **Dark Theme** - Modern, professional UI
@@ -40,7 +40,7 @@ PORT=3000
 
 Ensure your AWS account has access to Bedrock and the Claude model:
 - Go to AWS Bedrock console
-- Request access to `anthropic.claude-3-sonnet-20240229-v1:0`
+- Request access to `anthropic.claude-3-haiku-20240307-v1:0`
 - Wait for approval (usually instant)
 
 ### 4. Run Locally
